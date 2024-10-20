@@ -1,0 +1,22 @@
+.policy-updates {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .policy-updates h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .policy-iframe {
+    width: 100%;
+    height: 600px; /* Adjust the height based on your preference */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  

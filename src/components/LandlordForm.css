@@ -1,0 +1,68 @@
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+  .submit-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn .arrow-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #2af28b;
+    mask-size: contain;
+  }
+  
+  .submit-btn:hover .arrow-icon {
+    background-color: #333;
+  }
+  
+  .add-to-excel-btn {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .add-to-excel-btn:hover {
+    background-color: #0056b3;
+  }
+  

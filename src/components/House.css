@@ -1,0 +1,40 @@
+.house-container {
+    position: relative;
+    height: 600px;
+    text-align: left;
+    color: white;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: white;
+  }
+  
+  .header-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .header-text p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  

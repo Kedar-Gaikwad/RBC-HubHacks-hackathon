@@ -1,0 +1,32 @@
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+.input-wrapper input {
+  width: calc(100% - 40px);
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.submit-btn, .add-to-excel-btn {
+  background-color: #007BFF;
+  color: #000000;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-btn:hover, .add-to-excel-btn:hover {
+  background-color: #0056b3;
+}
